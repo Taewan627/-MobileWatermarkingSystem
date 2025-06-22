@@ -1,6 +1,19 @@
 # -MobileWatermarkingSystem
-This system allows for testing real-time image watermarking technology optimized for mobile environments.
-Real-time Watermark Insertion: Fast processing using a lightweight CNN model
-Adaptive Resolution Support: Automatically adjusts to various image sizes
-Watermark Verification: Extraction and validation of the embedded watermark
-Quality Analysis: Measures visual quality changes compared to the original image
+🔧 시스템 사양
+디바이스: cpu
+CNN 아키텍처: MobileNet 기반 경량화 모델
+워터마크 크기: 32x32 픽셀
+지원 포맷: JPG, PNG, BMP
+📈 성능 특징
+처리 속도: < 1초 (목표)
+메모리 효율성: 모바일 최적화
+해상도 적응: 동적 크기 조절
+견고성: 압축/변환 공격 저항
+🎯 사용 방법
+워터마크 삽입: 원본 이미지와 사용자 ID 입력
+워터마크 검증: 의심되는 이미지 업로드 후 추출
+품질 분석: 원본과 워터마크된 이미지 비교
+⚠️ 주의사항
+이는 실험용 프로토타입입니다
+실제 상용 환경에서는 추가 최적화가 필요합니다
+보안 강화를 위해 더 복잡한 암호화 기법 적용 권장
